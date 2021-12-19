@@ -1,11 +1,11 @@
 
-def fizz_buzz(n)
+def fizzbuzz(n)
   n.to_s
 end
 
-def fizz_buzz(n)
+def fizzbuzz(n)
   if n % 15 == 0
-    'Fizz Buzz'
+    'FizzBuzz'
   elsif n % 3 == 0
     'Fizz'
   elsif n % 5 == 0
@@ -17,7 +17,7 @@ end
 
 range = 1..20
 range.each do |x|
-  puts fizz_buzz(x)
+  puts fizzbuzz(x)
 end
 
 
